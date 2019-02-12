@@ -1,0 +1,130 @@
+<resources>
+    <!-- generic multi purpose strings -->
+    <string name="app_name">AAT Mobile App</string>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="user">Nutzer</string>
+
+    <!--preference related strings -->
+    <string name="pref_selectGestureMode">Steuerungsart auswählen</string>
+    <string name="pref_sessionSettings">Session-Einstellungen bearbeiten</string>
+    <string name="pref_manageImageSets">Bilder-Sets verwalten</string>
+    <string name="pref_manageImageSets_summary">Hinzufügen, Modifizieren oder Entfernen eigener Bilder-Sets</string>
+    <string name="pref_coloredBordersCategory">Farbige Bildumrandung</string>
+    <string name="pref_coloredBorders">Farbige Bildumrandung aktivieren</string>
+    <string name="pref_colorBorderPush">Farbe für Bilder, die verkleinert werden sollen</string>
+    <string name="pref_colorBorderPull">Farbe für Bilder, die vergrößert werden sollen</string>
+    <string name="pref_rotationCategory">Bild-Rotation</string>
+    <string name="pref_rotation">Bild-Rotation aktivieren</string>
+    <string name="pref_rotationPush">Rotation für Bilder, die verkleinert werden sollen</string>
+    <string name="pref_rotationPull">Rotation für Bilder, die vergrößert werden sollen</string>
+    <string name="pref_miscCategory">Verschiedenes</string>
+    <string name="pref_imagesPerRound">Anzahl der Bilder pro Runde</string>
+    <string name="pref_ratioPushPull1">Verhältnis Pull / Push (Runde 1)</string>
+    <string name="pref_ratioPushPull2">Verhältnis Pull / Push (Runde 2)</string>
+    <string name="pref_ratioPushPull3">Verhältnis Pull / Push (Runde 3)</string>
+    <string name="pref_ratioPushPull4">Verhältnis Pull / Push (Runde 4)</string>
+    <string name="pref_ratioPushPull5">Verhältnis Pull / Push (Runde 5)</string>
+    <string name="pref_editInstructions">Instruktionstext bearbeiten</string>
+    <string name="pref_screenOrientation">Bildschirmausrichtung</string>
+    <string name="pref_amountOfRounds">Anzahl Runden</string>
+    <string name="pref_timeBetweenImages">Zeit zwischen zwei Bildern</string>
+    <string name="pref_messageAfterEachImage">Nachricht nach jedem Bild</string>
+    <string name="pref_export">Session-Einstellungen exportieren</string>
+    <string name="pref_import">Session-Einstellungen importieren</string>
+    <string name="pref_showInstructions">Zeige Instruktionsbildschirm</string>
+
+    <!-- preference values -->
+    <string name="gestureMode_move">Armbewegung</string>
+    <string name="gestureMode_pinch">Pinch-Zoom</string>
+    <string name="gestureMode_angle">Anwinkeln des Geräts</string>
+    <string name="color_red">Rot</string>
+    <string name="color_blue">Blau</string>
+    <string name="color_green">Grün</string>
+    <string name="color_yellow">Gelb</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_purple">Lila</string>
+    <string name="color_pink">Pink</string>
+    <string name="color_turquoise">Türkis</string>
+    <string name="pref_messageAfterEachImageValueNone">Keine</string>
+
+    <!-- pref default values -->
+    <string name="pref_timeBetweenImagesDefault">1.5</string>
+
+    <!--Activity Titles -->
+    <string name="settings_activity_title">Einstellungen</string>
+    <string name="about_activity_title">Über die App</string>
+    <string name="sessionList_activity_title">Sessions</string>
+    <string name="sessionSettings_activity_title">Session-Einstellungen</string>
+    <string name="imageSets_activity_title">Bilder-Sets verwalten</string>
+    <string name="title_activity_login">Einloggen</string>
+
+    <!-- unsorted -->
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über die App</string>
+    <string name="start_button">Start</string>
+    <string name="results_button">Ergebnisse</string>
+    <string name="imageView_contentDescription">Ausgewähltes Bild</string>
+    <string name="noImageSetSelected">Es wurde noch kein Bilder-Set ausgewählt</string>
+    <string name="noImagesInImageSet">Das ausgewählte Bilder-Set enthält zu wenige Bilder</string>
+    <string name="createNewImageSet">Neues Bilder-Set anlegen</string>
+    <string name="newNameHint">"Name eingeben …"</string>
+    <string name="buttonOk">Ok</string>
+    <string name="buttonCancel">Abbrechen</string>
+    <string name="imageForPushOrPull">Soll das Bild vom Nutzer vergrößert oder verkleinert werden?</string>
+    <string name="push">Verkleinerung</string>
+    <string name="pull">Vergrößerung</string>
+    <string name="selectNewImage">Neues Bild hinzufügen</string>
+    <string name="couldNotImportImage">Das Bild konnte leider nicht importiert werden</string>
+    <string name="delete">Entfernen</string>
+    <string name="active">Aktiv</string>
+    <string name="nameTooLong">Der eingegebene Name ist zu lang</string>
+    <string name="default_set">Standard-Set</string>
+    <string name="menu_action_rename">Umbenennen</string>
+    <string name="university_siegen_logo">Logo der Universität Siegen</string>
+    <string name="logo_lehrstuhl">Logo des Lehrstuhls für Medizinische Informatik und Mikrosystementwurf</string>
+    <string name="renameImageSet">Bilder-Set umbenennen</string>
+    <string name="menu_action_copy">Duplizieren</string>
+    <string name="menu_action_changeImagePushPull">Ändern</string>
+    <string name="prompt_user_name">Nutzer</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_user_name">Dies ist kein gültiger Benutzername</string>
+    <string name="error_invalid_password">Dieses Passwort ist zu kurz</string>
+    <string name="error_incorrect_password">Dieses Passwort ist falsch</string>
+    <string name="error_field_required">Dieses Feld wird benötigt</string>
+    <string name="action_register">Neuen Nutzer registrieren</string>
+    <string name="action_logout">Ausloggen</string>
+    <string name="user_logged_in_prefix">"Eingeloggt: "</string>
+    <string name="dialog_are_you_sure">Sind Sie sicher?</string>
+    <string name="dialog_do_you_really_want_to_leave">Wollen Sie die Session wirklich verlassen?</string>
+    <string name="message_correct">Richtig!</string>
+    <string name="message_wrong">Falsch!</string>
+    <string name="error_user_exists_already">Dieser Benutzername existiert leider schon</string>
+    <string name="error_could_not_load_data">Einstellungen konnten nicht geladen werden</string>
+    <string name="loading_successfull">Einstellungen wurden erfolgreich geladen</string>
+    <string name="edit_instruction_activity_title">Instruktionstext bearbeiten</string>
+    <string name="put_instructions_here">Fügen Sie hier den Instruktionstext ein…</string>
+    <string name="third_party_software_title">Third party software</string>
+    <string name="third_party_software">Verwendete Drittanbieter-Software:</string>
+    <string name="gestureMode">Interaktionsmodus</string>
+    <string name="colored_borders">Farbige Umrandung</string>
+    <string name="rotation">Bild-Rotation</string>
+    <string name="overall">Übersicht</string>
+    <string name="round">Runde</string>
+    <string name="image">Bild</string>
+    <string name="time1">Zeit 1</string>
+    <string name="time2">Zeit 2</string>
+    <string name="reaction">Reaktion</string>
+    <string name="default_image_set">Standard Bild-Set</string>
+    <string name="date">Zeit</string>
+    <string name="action_load_config">Einstellungen importieren</string>
+    <string name="load_local_or_remote">Datei vom Gerät oder aus dem Internet laden?</string>
+    <string name="device">Gerät</string>
+    <string name="internet">Internet</string>
+    <string name="enter_url_for_download">Geben Sie eine URL für den Download ein</string>
+    <string name="err_delete_image_set">Nicht möglich. Löschen Sie bitte zuerst alle Session-Ergebnisse, die dieses Bilder-Set referenzieren.</string>
+</resources>

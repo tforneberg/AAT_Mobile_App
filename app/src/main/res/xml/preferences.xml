@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory><Preference
+        app:iconSpaceReserved="false"
+        android:title="@string/pref_manageImageSets">
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="de.tforneberg.aatapp"
+            android:targetClass="de.tforneberg.aatapp.ui.activities.ImageSetsActivity" />
+    </Preference></PreferenceCategory>
+    <PreferenceCategory><ListPreference
+        app:iconSpaceReserved="false"
+        android:key="gesture_mode"
+        android:title="@string/pref_selectGestureMode"
+        android:summary="%s"
+        android:defaultValue="@string/gestureMode_pinch_val"
+        android:persistent="true"
+        /></PreferenceCategory>
+    <PreferenceCategory><Preference
+        app:iconSpaceReserved="false"
+        android:title="@string/pref_sessionSettings" >
+        <intent android:action="android.intent.action.VIEW"
+            android:targetPackage="de.tforneberg.aatapp"
+            android:targetClass="de.tforneberg.aatapp.ui.activities.SessionSettingsActivity" />
+        </Preference>
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="export_prefs"
+            android:title="@string/pref_export"/>
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="import_prefs"
+            android:title="@string/pref_import"/>
+    </PreferenceCategory>
+</PreferenceScreen>

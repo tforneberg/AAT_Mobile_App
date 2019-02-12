@@ -1,0 +1,4 @@
+<paths>
+    <files-path path="csv/" name="csv" />
+    <cache-path path="exportedSettings/" name="exportedSettings" />
+</paths>

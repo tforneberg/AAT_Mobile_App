@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PREFERENCE VALUES -->
+    <!-- Screen orientation Values -->
+    <string-array name="screenOrientationValues" >
+        <item>Landscape</item>
+        <item>Portrait</item>
+    </string-array>
+
+    <!-- Gesture Mode Values -->
+    <string-array name="gestureMode">
+        <item>@string/gestureMode_move</item>
+        <item>@string/gestureMode_pinch</item>
+        <item>@string/gestureMode_angle</item>
+    </string-array>
+    <string-array name="gestureModeValues">
+        <item>@string/gestureMode_move_val</item>
+        <item>@string/gestureMode_pinch_val</item>
+        <item>@string/gestureMode_angle_val</item>
+    </string-array>
+
+    <!-- Colored border colors -->
+    <string-array name="coloredBorders">
+        <item>@string/color_red</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_green</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_orange</item>
+        <item>@string/color_purple</item>
+        <item>@string/color_pink</item>
+        <item>@string/color_turquoise</item>
+    </string-array>
+    <string-array name="coloredBordersValues">
+        <item>#d50000</item>
+        <item>#283593</item>
+        <item>#33691e</item>
+        <item>#afb42b</item>
+        <item>#ffa000</item>
+        <item>#9c27b0</item>
+        <item>#f50057</item>
+        <item>#18ffff</item>
+    </string-array>
+
+    <!-- Rotation angle values -->
+    <string-array name="rotationAngle">
+        <item>-45°</item>
+        <item>-40°</item>
+        <item>-35°</item>
+        <item>-30°</item>
+        <item>-25°</item>
+        <item>-20°</item>
+        <item>-15°</item>
+        <item>-10°</item>
+        <item>-5°</item>
+        <item>-3°</item>
+        <item>+3°</item>
+        <item>+5°</item>
+        <item>+10°</item>
+        <item>+15°</item>
+        <item>+20°</item>
+        <item>+25°</item>
+        <item>+30°</item>
+        <item>+35°</item>
+        <item>+40°</item>
+        <item>+45°</item>
+    </string-array>
+
+    <!-- Images per round -->
+    <string-array name="imagesPerRoundValues">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- Ratio Push / Pull -->
+    <string-array name="ratioPushPullEntries">
+        <item>0% Pull, 100% Push</item>
+        <item>10% Pull, 90% Push</item>
+        <item>20% Pull, 80% Push</item>
+        <item>30% Pull, 70% Push</item>
+        <item>40% Pull, 60% Push</item>
+        <item>50% Pull, 50% Push</item>
+        <item>60% Pull, 40% Push</item>
+        <item>70% Pull, 30% Push</item>
+        <item>80% Pull, 20% Push</item>
+        <item>90% Pull, 10% Push</item>
+        <item>100% Pull, 0% Push</item>
+    </string-array>
+    <string-array name="ratioPushPullValues">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- Amount of rounds -->
+    <string-array name="amountOfRoundsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- Time between images -->
+    <string-array name="timeBetweenImagesEntries">
+        <item>0.5s</item>
+        <item>1.0s</item>
+        <item>1.5s</item>
+        <item>2.0s</item>
+        <item>2.5s</item>
+        <item>3.0s</item>
+    </string-array>
+    <string-array name="timeBetweenImagesValues">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Message after each image -->
+    <string-array name="messageAfterEachImageValues">
+        <item>@string/pref_messageAfterEachImageValueNone</item>
+        <item>Toast</item>
+        <item>Dialog</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+The author of this app is Tobias Forneberg (tobi@t-forneberg.de).
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (http://creativecommons.org/licenses/by-nc/4.0/).
+
+This software uses the Android SDK and some third-party software: 
+- Glide (https://github.com/bumptech/glide)
+- TouchImageView (https://github.com/hannesa2/TouchImageView)
+- FastCSV (https://github.com/osiegmar/FastCSV)
+- Android Support library - preference v7 bugfix (https://github.com/Gericop/Android-Support-Preference-V7-Fix)
+
+For each third-party software listed above, there is a dedicated license information in the folder THIRD_PARTY_LICENSES.
